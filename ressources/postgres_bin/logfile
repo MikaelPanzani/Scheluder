@@ -1,0 +1,233 @@
+2025-05-27 13:17:07.088 GMT [12996] LOG:  starting PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.43.34808, 64-bit
+2025-05-27 13:17:07.101 GMT [12996] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-05-27 13:17:07.101 GMT [12996] LOG:  listening on IPv6 address "::1", port 5432
+2025-05-27 13:17:07.247 GMT [21424] LOG:  database system was shut down at 2025-05-27 13:16:44 GMT
+2025-05-27 13:17:07.308 GMT [12996] LOG:  database system is ready to accept connections
+2025-05-27 13:22:07.241 GMT [1800] LOG:  checkpoint starting: time
+2025-05-27 13:22:11.941 GMT [1800] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.643 s, sync=0.035 s, total=4.701 s; sync files=11, longest=0.004 s, average=0.004 s; distance=269 kB, estimate=269 kB; lsn=0/15B1438, redo lsn=0/15B13E0
+2025-05-27 14:28:56.029 GMT [17396] FATAL:  password authentication failed for user "L0030922"
+2025-05-27 14:28:56.029 GMT [17396] DETAIL:  Role "L0030922" does not exist.
+	Connection matched file "C:/Users/L0030922/PostGRE/data/pg_hba.conf" line 115: "host    all             all             127.0.0.1/32            password"
+2025-05-27 14:29:11.259 GMT [11504] FATAL:  password authentication failed for user "L0030922"
+2025-05-27 14:29:11.259 GMT [11504] DETAIL:  Role "L0030922" does not exist.
+	Connection matched file "C:/Users/L0030922/PostGRE/data/pg_hba.conf" line 115: "host    all             all             127.0.0.1/32            password"
+2025-05-27 14:32:24.425 GMT [21584] FATAL:  database "workforce" does not exist
+2025-05-28 07:30:52.061 GMT [23808] FATAL:  password authentication failed for user "postgres"
+2025-05-28 07:30:52.061 GMT [23808] DETAIL:  Password does not match for user "postgres".
+	Connection matched file "C:/Users/L0030922/PostGRE/data/pg_hba.conf" line 115: "host    all             all             127.0.0.1/32            password"
+2025-05-28 07:42:05.338 GMT [1800] LOG:  checkpoint starting: time
+2025-05-28 07:44:00.822 GMT [1800] LOG:  checkpoint complete: wrote 1047 buffers (6.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=114.519 s, sync=0.941 s, total=115.485 s; sync files=365, longest=0.005 s, average=0.003 s; distance=4831 kB, estimate=4831 kB; lsn=0/1A6D350, redo lsn=0/1A69250
+2025-05-28 07:47:05.185 GMT [1800] LOG:  checkpoint starting: time
+2025-05-28 07:47:07.528 GMT [1800] LOG:  checkpoint complete: wrote 22 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.289 s, sync=0.033 s, total=2.343 s; sync files=12, longest=0.004 s, average=0.003 s; distance=26 kB, estimate=4351 kB; lsn=0/1A6FD28, redo lsn=0/1A6FCD0
+2025-05-28 07:54:22.826 GMT [12044] FATAL:  database "workforce_planification_" does not exist
+2025-05-28 07:56:23.723 GMT [26052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-05-28 07:56:23.726 GMT [20796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-05-28 07:56:23.734 GMT [19816] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-05-28 07:56:31.196 GMT [12996] LOG:  received fast shutdown request
+2025-05-28 07:56:31.203 GMT [12996] LOG:  aborting any active transactions
+2025-05-28 07:56:31.216 GMT [12996] LOG:  background worker "logical replication launcher" (PID 6604) exited with exit code 1
+2025-05-28 07:56:31.217 GMT [1800] LOG:  shutting down
+2025-05-28 07:56:31.221 GMT [1800] LOG:  checkpoint starting: shutdown immediate
+2025-05-28 07:56:31.245 GMT [1800] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.029 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=3916 kB; lsn=0/1A6FDD8, redo lsn=0/1A6FDD8
+2025-05-28 07:56:31.262 GMT [12996] LOG:  database system is shut down
+2025-05-28 07:56:48.130 GMT [24804] LOG:  starting PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.43.34808, 64-bit
+2025-05-28 07:56:48.140 GMT [24804] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-05-28 07:56:48.140 GMT [24804] LOG:  listening on IPv6 address "::1", port 5432
+2025-05-28 07:56:48.288 GMT [24064] LOG:  database system was shut down at 2025-05-28 07:56:31 GMT
+2025-05-28 07:56:48.354 GMT [24804] LOG:  database system is ready to accept connections
+2025-05-28 07:58:00.031 GMT [16428] ERROR:  relation "operators" does not exist at character 15
+2025-05-28 07:58:00.031 GMT [16428] STATEMENT:  select * from operators
+	
+2025-05-28 07:58:07.668 GMT [16428] ERROR:  relation "operators" does not exist at character 15
+2025-05-28 07:58:07.668 GMT [16428] STATEMENT:  select * from Operators
+	
+2025-05-28 07:58:08.586 GMT [16428] ERROR:  relation "operators" does not exist at character 15
+2025-05-28 07:58:08.586 GMT [16428] STATEMENT:  select * from Operators
+	
+2025-05-28 07:58:08.761 GMT [16428] ERROR:  relation "operators" does not exist at character 15
+2025-05-28 07:58:08.761 GMT [16428] STATEMENT:  select * from Operators
+	
+2025-05-28 07:58:08.929 GMT [16428] ERROR:  relation "operators" does not exist at character 15
+2025-05-28 07:58:08.929 GMT [16428] STATEMENT:  select * from Operators
+	
+2025-05-28 07:59:44.183 GMT [16428] ERROR:  value too long for type character varying(10)
+2025-05-28 07:59:44.183 GMT [16428] STATEMENT:  insert into test (testval) values ('nique ta mere');
+2025-05-28 08:01:48.271 GMT [25800] LOG:  checkpoint starting: time
+2025-05-28 08:01:51.867 GMT [25800] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.509 s, sync=0.061 s, total=3.598 s; sync files=23, longest=0.005 s, average=0.003 s; distance=125 kB, estimate=125 kB; lsn=0/1A8F508, redo lsn=0/1A8F4B0
+2025-05-28 08:05:20.576 GMT [22644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-05-28 08:05:20.576 GMT [16428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-05-28 08:05:20.577 GMT [26236] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-05-28 08:05:26.846 GMT [24804] LOG:  received fast shutdown request
+2025-05-28 08:05:26.853 GMT [24804] LOG:  aborting any active transactions
+2025-05-28 08:05:26.881 GMT [24804] LOG:  background worker "logical replication launcher" (PID 23704) exited with exit code 1
+2025-05-28 08:05:26.881 GMT [25800] LOG:  shutting down
+2025-05-28 08:05:26.886 GMT [25800] LOG:  checkpoint starting: shutdown immediate
+2025-05-28 08:05:27.069 GMT [25800] LOG:  checkpoint complete: wrote 76 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.144 s, total=0.188 s; sync files=61, longest=0.004 s, average=0.003 s; distance=287 kB, estimate=287 kB; lsn=0/1AD74A8, redo lsn=0/1AD74A8
+2025-05-28 08:05:27.134 GMT [24804] LOG:  database system is shut down
+2025-05-28 08:05:28.953 GMT [22628] LOG:  starting PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.43.34808, 64-bit
+2025-05-28 08:05:28.963 GMT [22628] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-05-28 08:05:28.964 GMT [22628] LOG:  listening on IPv6 address "::1", port 5432
+2025-05-28 08:05:29.106 GMT [23044] LOG:  database system was shut down at 2025-05-28 08:05:27 GMT
+2025-05-28 08:05:29.165 GMT [22628] LOG:  database system is ready to accept connections
+2025-05-28 08:10:29.108 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 08:10:29.263 GMT [10040] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.121 s, sync=0.010 s, total=0.156 s; sync files=3, longest=0.004 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/1AD75B0, redo lsn=0/1AD7558
+2025-05-28 08:35:29.332 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 08:35:30.243 GMT [10040] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.870 s, sync=0.018 s, total=0.911 s; sync files=7, longest=0.003 s, average=0.003 s; distance=31 kB, estimate=31 kB; lsn=0/1AE0560, redo lsn=0/1ADF300
+2025-05-28 08:39:52.712 GMT [15352] ERROR:  syntax error at or near "entrée" at character 125
+2025-05-28 08:39:52.712 GMT [15352] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (2043,'BADR8','206C-BADR8-PPU','Contrôle d'entrée','','#3b669a');
+2025-05-28 08:39:53.217 GMT [14816] ERROR:  syntax error at or near "entrée" at character 128
+2025-05-28 08:39:53.217 GMT [14816] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (2047,'DPSO','206C-DPSO_FS-1BRAS','Contrôle d'entrée','','#8ea63d');
+2025-05-28 08:40:29.257 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 08:40:34.815 GMT [10040] LOG:  checkpoint complete: wrote 52 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.500 s, sync=0.035 s, total=5.559 s; sync files=13, longest=0.004 s, average=0.003 s; distance=553 kB, estimate=553 kB; lsn=0/1B6D898, redo lsn=0/1B69820
+2025-05-28 08:42:48.234 GMT [17524] ERROR:  syntax error at or near "entrée" at character 131
+2025-05-28 08:42:48.234 GMT [17524] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (3375,'EUTELSAT','206C-EU36X-PP100V','Contrôle d'entrée','','#02a233');
+2025-05-28 08:42:48.420 GMT [19924] ERROR:  syntax error at or near "entrée" at character 128
+2025-05-28 08:42:48.420 GMT [19924] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (3376,'EUTELSAT','206C-EU36X-VGS','Contrôle d'entrée','','#bb5ed9');
+2025-05-28 08:42:48.541 GMT [23076] ERROR:  syntax error at or near "entrée" at character 132
+2025-05-28 08:42:48.541 GMT [23076] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (3377,'EUTELSAT','206C-EU36X-PPU_INT','Contrôle d'entrée','','#2322b9');
+2025-05-28 08:42:48.801 GMT [18060] ERROR:  syntax error at or near "entrée" at character 127
+2025-05-28 08:42:48.801 GMT [18060] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (3379,'PTM140','206A-PTM140-FS4','Contrôle d'entrée','','#894157');
+2025-05-28 08:42:48.914 GMT [4576] ERROR:  syntax error at or near "entrée" at character 127
+2025-05-28 08:42:48.914 GMT [4576] STATEMENT:  INSERT INTO Tasks (id,affaire, sousEnsemble, operation, periode ,couleur) VALUES (3380,'PTM140','206A-PTM140-FS3','Contrôle d'entrée','','#069e21');
+2025-05-28 08:45:29.852 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 08:45:36.329 GMT [10040] LOG:  checkpoint complete: wrote 60 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.417 s, sync=0.036 s, total=6.477 s; sync files=12, longest=0.004 s, average=0.003 s; distance=511 kB, estimate=549 kB; lsn=0/1BE9698, redo lsn=0/1BE9608
+2025-05-28 08:55:29.363 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 08:55:30.062 GMT [10040] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.657 s, sync=0.017 s, total=0.700 s; sync files=6, longest=0.004 s, average=0.003 s; distance=10 kB, estimate=495 kB; lsn=0/1BEC280, redo lsn=0/1BEC1F0
+2025-05-28 09:05:29.111 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:05:29.706 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.551 s, sync=0.017 s, total=0.596 s; sync files=6, longest=0.004 s, average=0.003 s; distance=11 kB, estimate=446 kB; lsn=0/1BEEEF8, redo lsn=0/1BEEEA0
+2025-05-28 09:20:29.772 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:20:30.363 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.546 s, sync=0.022 s, total=0.591 s; sync files=6, longest=0.006 s, average=0.004 s; distance=11 kB, estimate=403 kB; lsn=0/1BF1B50, redo lsn=0/1BF1AF8
+2025-05-28 09:25:29.380 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:25:29.975 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.547 s, sync=0.024 s, total=0.596 s; sync files=6, longest=0.005 s, average=0.004 s; distance=11 kB, estimate=364 kB; lsn=0/1BF4810, redo lsn=0/1BF47B8
+2025-05-28 09:35:29.994 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:35:30.579 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.542 s, sync=0.021 s, total=0.586 s; sync files=6, longest=0.005 s, average=0.004 s; distance=11 kB, estimate=328 kB; lsn=0/1BF7518, redo lsn=0/1BF74C0
+2025-05-28 09:40:29.590 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:40:30.177 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.549 s, sync=0.017 s, total=0.588 s; sync files=6, longest=0.004 s, average=0.003 s; distance=11 kB, estimate=297 kB; lsn=0/1BFA288, redo lsn=0/1BFA230
+2025-05-28 09:45:29.187 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:45:29.776 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.549 s, sync=0.017 s, total=0.590 s; sync files=6, longest=0.004 s, average=0.003 s; distance=11 kB, estimate=268 kB; lsn=0/1BFD1B0, redo lsn=0/1BFD158
+2025-05-28 09:55:29.843 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 09:55:30.412 GMT [10040] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.438 s, sync=0.016 s, total=0.569 s; sync files=5, longest=0.004 s, average=0.004 s; distance=11 kB, estimate=242 kB; lsn=0/1C00190, redo lsn=0/1C00138
+2025-05-28 10:00:29.436 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:00:30.025 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.550 s, sync=0.018 s, total=0.589 s; sync files=6, longest=0.004 s, average=0.003 s; distance=11 kB, estimate=219 kB; lsn=0/1C03040, redo lsn=0/1C02FE8
+2025-05-28 10:20:29.096 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:20:29.686 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.548 s, sync=0.017 s, total=0.591 s; sync files=6, longest=0.004 s, average=0.003 s; distance=12 kB, estimate=198 kB; lsn=0/1C060D8, redo lsn=0/1C06080
+2025-05-28 10:25:29.720 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:25:33.785 GMT [10040] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.949 s, sync=0.089 s, total=4.065 s; sync files=33, longest=0.004 s, average=0.003 s; distance=192 kB, estimate=198 kB; lsn=0/1C36450, redo lsn=0/1C363F8
+2025-05-28 10:30:29.845 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:30:32.037 GMT [10040] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.119 s, sync=0.049 s, total=2.192 s; sync files=17, longest=0.004 s, average=0.003 s; distance=28 kB, estimate=181 kB; lsn=0/1C3D528, redo lsn=0/1C3D4D0
+2025-05-28 10:33:30.712 GMT [21864] ERROR:  duplicate key value violates unique constraint "assignments_pkey"
+2025-05-28 10:33:30.712 GMT [21864] DETAIL:  Key (operator_id, start_date, end_date)=(308, 2025-05-28, 2025-05-30) already exists.
+2025-05-28 10:33:30.712 GMT [21864] STATEMENT:  INSERT INTO Assignments (name,operator_id,task_id, start_date, end_date) VALUES ('Mon Assignement !',308 ,8 ,'28-05-2025','30-05-2025')
+2025-05-28 10:35:20.659 GMT [11076] ERROR:  duplicate key value violates unique constraint "assignments_pkey"
+2025-05-28 10:35:20.659 GMT [11076] DETAIL:  Key (operator_id, start_date, end_date)=(308, 2025-05-28, 2025-05-30) already exists.
+2025-05-28 10:35:20.659 GMT [11076] STATEMENT:  INSERT INTO Assignments (name,operator_id,task_id, start_date, end_date) VALUES ('Mon Assignement !',308 ,65 ,'28-05-2025','30-05-2025')
+2025-05-28 10:35:29.061 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:35:33.628 GMT [10040] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.435 s, sync=0.110 s, total=4.568 s; sync files=34, longest=0.005 s, average=0.004 s; distance=201 kB, estimate=201 kB; lsn=0/1C6FC58, redo lsn=0/1C6FBC8
+2025-05-28 10:40:29.690 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:40:30.186 GMT [10040] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.431 s, sync=0.014 s, total=0.496 s; sync files=5, longest=0.004 s, average=0.003 s; distance=11 kB, estimate=182 kB; lsn=0/1C72B68, redo lsn=0/1C72B10
+2025-05-28 10:41:23.786 GMT [8656] ERROR:  duplicate key value violates unique constraint "assignments_pkey"
+2025-05-28 10:41:23.786 GMT [8656] DETAIL:  Key (operator_id, start_date, end_date)=(308, 2025-05-28, 2025-05-30) already exists.
+2025-05-28 10:41:23.786 GMT [8656] STATEMENT:  INSERT INTO Assignments (name,operator_id,task_id, start_date, end_date) VALUES ('Mon Assignement !',308 ,3 ,'28-05-2025','30-05-2025')
+2025-05-28 10:44:42.480 GMT [11620] ERROR:  duplicate key value violates unique constraint "assignments_pkey"
+2025-05-28 10:44:42.480 GMT [11620] DETAIL:  Key (operator_id, start_date, end_date)=(285, 2025-05-29, 2025-05-29) already exists.
+2025-05-28 10:44:42.480 GMT [11620] STATEMENT:  INSERT INTO Assignments (name,operator_id,task_id, start_date, end_date) VALUES ('Mon Assignement !',285 ,1 ,'29-05-2025','29-05-2025')
+2025-05-28 10:45:29.210 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:45:29.687 GMT [10040] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.437 s, sync=0.016 s, total=0.477 s; sync files=5, longest=0.004 s, average=0.004 s; distance=12 kB, estimate=165 kB; lsn=0/1C75BD0, redo lsn=0/1C75B78
+2025-05-28 10:55:29.725 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 10:55:30.991 GMT [10040] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.207 s, sync=0.036 s, total=1.267 s; sync files=12, longest=0.004 s, average=0.003 s; distance=45 kB, estimate=153 kB; lsn=0/1C81080, redo lsn=0/1C81028
+2025-05-28 11:00:30.021 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 11:00:30.607 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.543 s, sync=0.019 s, total=0.586 s; sync files=6, longest=0.004 s, average=0.004 s; distance=17 kB, estimate=140 kB; lsn=0/1C85700, redo lsn=0/1C856A8
+2025-05-28 11:08:20.846 GMT [22108] ERROR:  duplicate key value violates unique constraint "assignments_pkey"
+2025-05-28 11:08:20.846 GMT [22108] DETAIL:  Key (operator_id, start_date, end_date)=(308, 2025-05-28, 2025-05-30) already exists.
+2025-05-28 11:08:20.846 GMT [22108] STATEMENT:  INSERT INTO Assignments (name,operator_id,task_id, start_date, end_date) VALUES ('Mon Assignement !',308 ,5 ,'28-05-2025','30-05-2025')
+2025-05-28 11:10:30.653 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 11:10:32.161 GMT [10040] LOG:  checkpoint complete: wrote 14 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.436 s, sync=0.047 s, total=1.508 s; sync files=13, longest=0.005 s, average=0.004 s; distance=43 kB, estimate=130 kB; lsn=0/1C90620, redo lsn=0/1C90590
+2025-05-28 11:13:41.975 GMT [25840] ERROR:  cannot drop function assignments_del_on_insert() because other objects depend on it
+2025-05-28 11:13:41.975 GMT [25840] DETAIL:  trigger trigger_delete_on_insert on table assignments depends on function assignments_del_on_insert()
+2025-05-28 11:13:41.975 GMT [25840] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2025-05-28 11:13:41.975 GMT [25840] STATEMENT:  
+	DROP FUNCTION public.assignments_del_on_insert();
+	
+2025-05-28 11:15:30.187 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 11:15:30.777 GMT [10040] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.545 s, sync=0.020 s, total=0.591 s; sync files=6, longest=0.004 s, average=0.004 s; distance=21 kB, estimate=119 kB; lsn=0/1C95BE8, redo lsn=0/1C95B90
+2025-05-28 11:22:05.542 GMT [21784] ERROR:  syntax error at or near "if" at character 67
+2025-05-28 11:22:05.542 GMT [21784] STATEMENT:  CREATE FUNCTION del_on_insert_if_same() RETURNS trigger 
+		Begin
+			if new.operator_id = operator_id and new.start_date = start_date  and new.end_date = end_date then
+				delete from assignments
+			end if;
+			return new;
+		end
+	
+	
+	CREATE TRIGGER trigger_del_on_insert_if_same BEFORE INSERT on assignements
+	    FOR EACH ROW EXECUTE FUNCTION del_on_insert_if_same();
+2025-05-28 11:25:30.793 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 11:25:33.831 GMT [10040] LOG:  checkpoint complete: wrote 28 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.953 s, sync=0.063 s, total=3.040 s; sync files=23, longest=0.004 s, average=0.003 s; distance=112 kB, estimate=118 kB; lsn=0/1CB1E20, redo lsn=0/1CB1D90
+2025-05-28 11:30:30.855 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 11:30:31.331 GMT [10040] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.437 s, sync=0.016 s, total=0.476 s; sync files=5, longest=0.004 s, average=0.004 s; distance=14 kB, estimate=108 kB; lsn=0/1CB5970, redo lsn=0/1CB5918
+2025-05-28 12:13:11.771 GMT [22628] LOG:  could not reserve shared memory region (addr=0000027A0C100000) for child 0000000000000E80: error code 487
+2025-05-28 12:35:30.513 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 12:35:30.986 GMT [10040] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.433 s, sync=0.016 s, total=0.474 s; sync files=5, longest=0.004 s, average=0.004 s; distance=13 kB, estimate=98 kB; lsn=0/1CB8FE8, redo lsn=0/1CB8F58
+2025-05-28 14:32:29.949 GMT [14324] ERROR:  duplicate key value violates unique constraint "tasks_pkey"
+2025-05-28 14:32:29.949 GMT [14324] DETAIL:  Key (id)=(1) already exists.
+2025-05-28 14:32:29.949 GMT [14324] STATEMENT:  INSERT INTO Tasks (affaire, sousEnsemble, operation, periode, couleur) VALUES ('Ma nouvelle affaire','Mon nouveau sous ensemble','Ma nouvelle opération','MATIN','#GGHHMM');
+2025-05-28 14:32:47.090 GMT [14324] ERROR:  duplicate key value violates unique constraint "tasks_pkey"
+2025-05-28 14:32:47.090 GMT [14324] DETAIL:  Key (id)=(2) already exists.
+2025-05-28 14:32:47.090 GMT [14324] STATEMENT:  INSERT INTO Tasks (affaire, sousEnsemble, operation, periode, couleur) VALUES ('Ma nouvelle affaire','Mon nouveau sous ensemble','Ma nouvelle opération','MATIN','#GGHHMM');
+2025-05-28 14:35:31.408 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 14:35:32.633 GMT [10040] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.132 s, sync=0.037 s, total=1.226 s; sync files=9, longest=0.011 s, average=0.005 s; distance=16 kB, estimate=90 kB; lsn=0/1CBCFF0, redo lsn=0/1CBCF98
+2025-05-28 14:40:31.682 GMT [10040] LOG:  checkpoint starting: time
+2025-05-28 14:40:32.497 GMT [10040] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.768 s, sync=0.024 s, total=0.815 s; sync files=8, longest=0.004 s, average=0.003 s; distance=14 kB, estimate=82 kB; lsn=0/1CC0890, redo lsn=0/1CC0838
+2025-05-28 14:55:49.993 GMT [22628] LOG:  received fast shutdown request
+2025-05-28 14:55:50.000 GMT [22628] LOG:  aborting any active transactions
+2025-05-28 14:55:50.001 GMT [17332] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.002 GMT [21200] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.002 GMT [22340] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.004 GMT [24508] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.005 GMT [3860] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.005 GMT [5952] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.006 GMT [25840] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.006 GMT [13652] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.005 GMT [24016] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.005 GMT [23936] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.007 GMT [20828] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.008 GMT [2088] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.008 GMT [25976] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.024 GMT [22628] LOG:  background worker "logical replication launcher" (PID 25100) exited with exit code 1
+2025-05-28 14:55:50.006 GMT [21784] FATAL:  terminating connection due to administrator command
+2025-05-28 14:55:50.057 GMT [10040] LOG:  shutting down
+2025-05-28 14:55:50.062 GMT [10040] LOG:  checkpoint starting: shutdown immediate
+2025-05-28 14:55:50.085 GMT [10040] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.028 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=74 kB; lsn=0/1CC0940, redo lsn=0/1CC0940
+2025-05-28 14:55:50.122 GMT [22628] LOG:  database system is shut down
+2025-05-28 14:58:21.572 GMT [5124] LOG:  starting PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.43.34808, 64-bit
+2025-05-28 14:58:21.583 GMT [5124] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-05-28 14:58:21.583 GMT [5124] LOG:  listening on IPv6 address "::1", port 5432
+2025-05-28 14:58:21.730 GMT [21148] LOG:  database system was shut down at 2025-05-28 14:55:50 GMT
+2025-05-28 14:58:21.795 GMT [5124] LOG:  database system is ready to accept connections
+2025-05-28 15:03:21.720 GMT [18840] LOG:  checkpoint starting: time
+2025-05-28 15:03:21.757 GMT [18840] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.007 s, total=0.038 s; sync files=2, longest=0.004 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/1CC0A48, redo lsn=0/1CC09F0
+2025-05-28 15:08:52.750 GMT [5124] LOG:  received fast shutdown request
+2025-05-28 15:08:52.757 GMT [5124] LOG:  aborting any active transactions
+2025-05-28 15:08:52.765 GMT [5124] LOG:  background worker "logical replication launcher" (PID 24832) exited with exit code 1
+2025-05-28 15:08:52.777 GMT [18840] LOG:  shutting down
+2025-05-28 15:08:52.783 GMT [18840] LOG:  checkpoint starting: shutdown immediate
+2025-05-28 15:08:52.807 GMT [18840] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.030 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1CC0AF8, redo lsn=0/1CC0AF8
+2025-05-28 15:08:52.842 GMT [5124] LOG:  database system is shut down
+2025-06-02 05:53:05.352 GMT [18688] LOG:  starting PostgreSQL 17.5 on x86_64-windows, compiled by msvc-19.43.34808, 64-bit
+2025-06-02 05:53:05.355 GMT [18688] LOG:  listening on IPv6 address "::", port 5432
+2025-06-02 05:53:05.356 GMT [18688] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-06-02 05:53:05.509 GMT [16128] LOG:  database system was shut down at 2025-05-28 15:25:44 GMT
+2025-06-02 05:53:05.576 GMT [18688] LOG:  database system is ready to accept connections
+2025-06-02 05:53:21.264 GMT [27248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-06-02 05:57:35.244 GMT [12628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2025-06-02 05:58:05.511 GMT [2088] LOG:  checkpoint starting: time
+2025-06-02 05:58:05.549 GMT [2088] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.005 s, total=0.041 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/1CC0F70, redo lsn=0/1CC0F18

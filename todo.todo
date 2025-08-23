@@ -1,0 +1,31 @@
+Global : 
+
+    Notes :
+        Il faut utiliser les model pour faire les affichage de table simplement et faire tout depuis postgres !
+            # Création d'un modèle pour afficher les résultats
+            model = QSqlQueryModel()
+            model.setQuery(query)
+
+            # Configuration du TableView pour afficher les résultats
+            self.table_view.setModel(model)
+
+
+
+
+tasks_widget:
+    ✔ Corriger le couplage entre la défintion d'une tâche sur la db, le tableau en output de la macro. @done (8/6/2025, 12:25:28 PM)
+    ✔ Corriger la fonction de generation autmatique des tâches. @done (8/6/2025, 12:25:26 PM)
+    ✔ Corriger attribution à cause du chanegment des taches @done (8/7/2025, 11:44:31 AM)
+    ☐ Modifier dans SS le le visuel pour la génération de tâches auto pour le faire correspondre à ce qu'il faut pour le script
+    ☐ Corriger l'affichage des tâches du tabelau
+Notes :
+    Il faudrait lié les tâches entre elles avec des conntraintes de précédence pour pouvoir etre capable de réaliser un décalage facilement.
+
+stat_widgets:
+    ☐ Quand on multiplie le nombre d'opérateur sur un jour par 8 pour calculer le nombre d'heure totales, il faut passer le 8 en variable qui dépend du type de contrat
+    ☐ Faire un visuel avec le compte du nombre d'opérateur par projet et le montrer sur stat
+
+
+tools_function:
+    ☐ Supprimer records_table_paser au profit de records_query_parser et corriger tous les appels à la premiere fonction
+    Notes:
